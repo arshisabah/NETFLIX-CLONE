@@ -10,8 +10,9 @@
             <nav>
                 <img src="assets/logo.png" alt="netflix-logo" class="logo">
                 <div>
-                    <button class="lang-btn">English <img src="assets/down-icon.png" ></button>
-                    <button>Sign in</button>
+                    <select class="lang-btn" name="LanguageSelect" data-uia="language-picker-header" fdprocessedid="0e6k6o"><option lang="en" label="English" value="en-IN" selected="">English</option><option lang="hi" label="हिन्दी" value="hi-IN">हिन्दी</option></select>
+                    <button onclick="window.location.href='https://www.netflix.com/in/';">Sign in</button>
+
                 </div>
             </nav>
             <div>
@@ -23,7 +24,7 @@
                     <p>Ready to watch? Enter your email to create or restart your membership.</p>
                     <form class="email-signup">\
                         <input type="email" placeholder="Email address" required>
-                        <button type="submit">Get Started</button>
+                        <button type="submit" onclick="window.location.href='https://www.netflix.com/in/';">Get Started</button>
                     </form>
                 </div>
             </div>
